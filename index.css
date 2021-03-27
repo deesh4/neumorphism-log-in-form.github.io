@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding:0;
+    /* background: #0d2130; */
+    background: #e7ad99;
+}
+.login{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    min-height: 400px;
+    width: 350px;
+    padding: 25px;
+    border-radius: 50px;
+    /* box-shadow: 5px 5px 10px #0b1b27,-5px -5px 10px #0f2739; */
+    box-shadow: 5px 5px 10px #ce796b,-5px -5px 10px #ecc8af;
+     
+}
+.login input{
+    width: 93%;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+     /* box-shadow: 5px 5px 10px #0b1b27,-5px -5px 10px #0f2739; */
+     box-shadow: 5px 5px 10px #ce796b,-5px -5px 10px #ecc8af;
+    border:0;
+      /* background: #0d2130; */
+      background: #e7ad99;
+    margin-bottom: 35px;
+}
+.login input[type="submit"]{
+    width: 120px;
+    padding: 10px;
+    font-size: 16px;
+    color: #777;
+    border-radius: 5px;
+    border: 0;
+     /* background: #0d2130; */
+     background: #e7ad99;
+     /* box-shadow: 5px 5px 10px #0b1b27,-5px -5px 10px #0f2739; */
+     box-shadow: 5px 5px 10px #ce796b,-5px -5px 10px #ecc8af;
+}
+.login p{
+    text-align: center;
+}
+.login i{
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius:50px ;
+    text-align: center;
+     /* box-shadow: 5px 5px 10px #0b1b27,-5px -5px 10px #0f2739; */
+     box-shadow: 5px 5px 10px #ce796b,-5px -5px 10px #ecc8af;
+    font-size: 36px;
+    /* color: #0f2739; */
+    color:#ecc8af;
+    margin-bottom: 35px;
+}
+.login::placeholder{
+    color: #777;
+}
+.login input[type="submit"]:hover{
+     /* box-shadow: 5px 5px 10px #0b1b27,-5px -5px 10px #0f2739; */
+     box-shadow: 5px 5px 10px #ce796b,-5px -5px 10px #ecc8af;
+}
